@@ -73,7 +73,9 @@ export function Home() {
                         {auth.isAdmin ? "Tenant Complaints" : "My Complaints"}
                     </Typography>
                     <Item>
-                        <Complaint complaints={complaints}/>
+                        {complaints &&
+                            <Complaint complaints={complaints}/>
+                        }
                     </Item>
                 </Grid>
             </Grid>
