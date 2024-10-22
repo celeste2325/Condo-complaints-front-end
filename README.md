@@ -3,6 +3,8 @@
 The Condo Complaints project is a web application built with React.js that allows residents to report issues within
 their condominium complex, view existing complaints, and manage their submissions.
 
+- [You can watch a screen-recorded video by clicking here](https://youtu.be/i1TkKymHflQ)
+
 ## Features
 
 - User-friendly interface for reporting complaints.
